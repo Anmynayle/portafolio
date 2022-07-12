@@ -6,6 +6,7 @@
     ---color-backgroung--hero:#fff;
     ---color--title--:#cb44bc;
     ---color--subtitle--: black;
+    ---color--navbar---: #fdf1f1;
 }
 
 html {
@@ -209,9 +210,10 @@ img {
 ===============*/
 
 .about {
-    padding: 2rem 10px;
+    padding: .75rem 10px;
     text-align: center;
     height: 100%;
+    margin-top: 0;
    
 }
 
@@ -219,6 +221,7 @@ img {
     color: white;
     font-size: 2rem;
     margin-bottom: 30px;   
+   
 }
 
 .about p {
@@ -232,8 +235,8 @@ img {
  * Section modifica ek tamañp de la seccion  background-color: #fff7da;
 ===============================================================*/
 .section {
-    height: 70vh;
-    padding: 2rem 0 2.5rem;
+    height: 50vh;
+    padding: 1rem 0 2.5rem;
     
 }
 
@@ -243,9 +246,12 @@ img {
 }
 
 .section-slider{
+    
     height: 30vh;
-    padding: 1.5rem 0 2rem;
+    margin-top: 1rem;
+    padding: 1rem 0 2rem;
 }
+
 
 .section-color{
      background-color: #f0d4e7;
@@ -451,10 +457,10 @@ img {
     margin-bottom: 30px;
 }
 .slider {
-	width: 50%;
+	width: 40%;
 	margin: auto;
 	overflow: hidden;
-    border-radius: 30%;
+    
 }
 
 .slider ul {
@@ -509,7 +515,7 @@ img {
 .contact__body i{ 
     font-size: 4rem;
     margin-top: 20px;
-    color: var(--color-text--ligth);
+    color: black;
     
 }
 .box__icon{
@@ -521,6 +527,7 @@ img {
     width: 100%;
     height: 50px;
     border-radius: 8px;
+    color: var(---color--navbar---);
    
 }
 .footer__contenedor__texto {
@@ -534,6 +541,25 @@ img {
     animation-duration: 3s;
     animation-name: slidein;
     margin-top: 50px;
+}
+.footer__social {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.footer__social i {
+    font-size: 30px;
+    color: #a9a9a9;
+    transition: all .3s ease-in-out;
+
+}
+
+.footer__social i:hover {
+
+    color: var(--color-text--ligth);
+    font-size: 45px;
+
 }
 @keyframes slidein {
     from {
@@ -606,7 +632,6 @@ img {
     color: white;
 }
 .title-sincolor {
-   
     color: var(--color-text--ligth);
 }
 

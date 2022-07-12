@@ -11,3 +11,5 @@ btnOpen.addEventListener('click', function () {
 btnClose.addEventListener('click', function (e) {
   menu.classList.remove('active')
 })
+
+
