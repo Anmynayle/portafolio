@@ -183,7 +183,7 @@ img {
     height: 350px;
     border-radius: 50%;
     background-image: url('../img/profile.png');
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: 50% 0%;
     background-repeat: no-repeat;
     transform: translateY(-50%) translateX(-50%);
@@ -272,6 +272,7 @@ img {
 .section-title {
     text-align: center;
     color: var(--color-text--ligth);
+    padding: .5rem;
 }
 .title-fondo{
     color: white;
