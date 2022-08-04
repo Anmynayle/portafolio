@@ -414,6 +414,11 @@ img {
     transform: rotateY(-360deg);
     }
 }
+
+
+/*==============
+ * Mis Servicios *
+===============*/
 .skills__container {
     display: flex;
     flex-wrap: wrap;
@@ -460,7 +465,62 @@ img {
     align-items: center;
     margin-bottom: 30px;
 }
-.slider {
+
+
+/*==============
+ * Mis Proyectos *
+===============*/
+.card_container {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-bottom: 35px;   
+
+}
+
+.card-proyect {
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-image: url(/assents/img/ecomerce.png);
+    background-size: contain;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, 8);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card2 {
+    background-image: url(/assents/img/weater.png);
+}
+
+.hidden {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+
+.hidden:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+/*.slider {
 	width: 40%;
 	margin: auto;
 	overflow: hidden;
@@ -495,7 +555,7 @@ img {
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-}
+}*/
 
 .container__contact{
     display: flex;
