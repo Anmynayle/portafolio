@@ -491,8 +491,8 @@ img {
 }
 
 .card-proyect {
-    width: 400px;
-    height: 300px;
+    width: 200px;
+    height: 150px;
     border: 1px solid;
     border-radius: 10px;
     background-image: url(/assents/img/ecomerce.png);
@@ -649,7 +649,7 @@ a {
 }
 
 /*=====================================
- * Media Querys siempre abajo de todo *
+ * Media Querys  *
 ======================================*/
  
 @media (min-width: 768px) {
@@ -672,7 +672,24 @@ a {
     height: 550px;
     transform: translateY(-50%) translateX(-50%);
 }
-    
+
+.card-proyect {
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-image: url(/assents/img/ecomerce.png);
+    background-size: contain;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, 8);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card2 {
+    background-image: url(/assents/img/weater.png);
+}
+
+
 .cont__info {
      margin-top: 40rem;
 }
