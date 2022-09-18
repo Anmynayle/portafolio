@@ -26,12 +26,12 @@
       <h2 class="logo"> <i class='bx bxs-id-card'></i> Anmy <span> Moreno</span></h2>
       <ul>
         <i class='bx bx-x icon-x'></i>
-        <li><a  href="#">Inicio</a></li>
-        <li><a href="#">Acerca de Mi</a></li>
-        <li><a href="#">Habilidades</a></li>
-        <li><a  href="#">Servicio</a></li>
-        <li><a  href="#">Proyectos</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="">Inicio</a></li>
+        <li><a class="hero__nav-link" href="#about">Acerca de Mi</a></li>
+        <li><a class="hero__nav-link" href="#habilidades">Habilidades</a></li>
+        <li><a class="hero__nav-link" href="#servicios">Servicio</a></li>
+        <li><a class="hero__nav-link"  href="#proyectos">Proyectos</a></li>
+        <li><a class="hero__nav-link" href="#contacto">Contacto</a></li>
       </ul>
       <button type="button"><img src="./assents/icon/menu 1.svg" alt=""></button>
     </nav>
@@ -40,7 +40,14 @@
       <div class="cont__info">
         <h1>Hola Soy Anmy </h1>
         <h3>Diseñadora y Desarolladora Web</h3>
+        <hr>
+        <div class="icon_redes">
+            <a href="https://app.netlify.com/teams/anmynayle/overview"><i class='bx bxl-netlify'></i></a>
+            <a href="https://www.linkedin.com/in/anmy-moreno-b11943247/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/Anmynayle"><i class='bx bxl-github'></i></a>
+        </div>
       </div>
+      
     </div> 
   </header>
    <main class="wrapper">
@@ -48,11 +55,17 @@
       <div class="section-container reveal">
         <h2 class="section-title title-fondo">Acerca de Mi</h2>
         <div class="about">
-      <p>Soy estudiante de Desarrollo Web, organizada, proactiva con facilidad 
+        <p>Programadora full stack,  organizada, proactiva con facilidad 
         para las relaciones interpersonales, experiencia en clima organizacional y en dirección 
-        y liderazgo de equipos de trabajo.Buscando formar parte del equipo de una Organización 
-        que me permita aplicar eficiente y eficazmente mis conocimientos además de continuar
-         creciendo en permanente formación de la mano de la misma. </p>
+        y liderazgo de equipos de trabajo. Apasionada al mundo de la programación,
+        dispuesta aportar al desarrollo de la organizacion trabajando en equipo, generando
+        nuevas ideas y asumiendo nuevos retos aplicando eficiente y eficazmente mis conocimientos
+        en JavaScript, HTML, CSS, React,Php y mysql .</p>
+        <div class="cv">
+          <a  dowload="cv-anmh" href="./assents/utilits/ANMYMORENO.pdf">Curriculum
+            <i class='bx bx-download'></i>
+          </a>
+        </div>
         </div>
     </section>
     <section id="habilidades" class="section-habilidades">
@@ -147,12 +160,51 @@
         <div class="section-content">
           <div class="card_container">
             <div class="card-proyect">
-              <div class="hidden"><a href="#"><i class="fi fi-rr-globe"></i></a></div>
-            </div>
+              <div class="hidden">
+                <div class="description">
+                  Quotes Random muestras frases aleatorias, realizada con React, utilizando componentes y un JSON
+                </div>
+                <a href="https://app.netlify.com/sites/quotesanmy/overview"><i class="fi fi-rr-globe"></i></a>
+                </div>
+              </div>
             <div class="card-proyect card2">
-              <div class="hidden"><a href="https://weatherstatus-anmh.netlify.app/"><i class="fi fi-rr-globe"></i></a></div>
+              <div class="hidden">
+                 <div class="description">Wheather status es una app que muestra el clima segun el pais, para ello utilice los
+                  metodos de geolocation del objeto navigator,consumi la api de openweather usando useEffect.
+                 </div> 
+                <a href="https://weatherstatus-anmh.netlify.app/"><i class="fi fi-rr-globe"></i></a>
+              </div>
+            </div>
+            <div class="card-proyect card3">
+              <div class="hidden">
+                <div class="description">
+                  Mediante esta app podras verificar los personajes de Rick and Morty segun su location, para ello consumi la api de Rick and Morty,
+                  input controlados,custom hook y renderizado condicional.</div> 
+                <a href="https://rickandmorty-anmyandjesus.netlify.app/"><i class="fi fi-rr-globe"></i></a></div>
+            </div>
+            <div class="card-proyect card4">
+              <div class="hidden">
+                <div class="description">
+                  App que permite crear, eliminar y actualizar datos de usuarios. Utilizando React-hook-form, Javascritp, Css.</div> 
+                <a href="https://hookanmyjesusarrechider.netlify.app/"><i class="fi fi-rr-globe"></i></a></div>
+            </div>
+            <div class="card-proyect card5">
+              <div class="hidden">
+                <div class="description">
+                  App que permite filtrar pokemon, para su desarrollo, utilice,css,hook,javascript,react router,axios y la api de pokemon. 
+                </div> 
+                <a href="https://pokereactapi.netlify.app/"><i class="fi fi-rr-globe"></i></a></div>
+            </div>
+            <div class="card-proyect card6">
+              <div class="hidden">
+                <div class="description">
+                  Carrito de compras que permite filtrar el producto por categoria,precio, nombre. Para ello utlice axios,hook,react
+                  router,react thunk,react hook form, localstore, token, js, css.
+                </div> 
+                <a href="https://ecomercejesusandanmy.netlify.app/"><i class="fi fi-rr-globe"></i></a></div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

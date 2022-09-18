@@ -38,7 +38,12 @@ img {
     width: 100%;
     min-height: 100vh;
     background-color: #fff;
-    background-image: linear-gradient(180deg, rgb(255 255 255 / 1%), rgba(255 255 255 / 1) 85%),radial-gradient(ellipse at top left, rgba(13 110 253 / 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(255 228 132 / 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(112 44 249 / 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(214 51 132 / 0.5), transparent 50%);
+    background-image: url('https://i.pinimg.com/originals/75/29/84/752984ce68311500a778f31eee4959c7.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-image: url('https://pa1.narvii.com/7125/26ca473570e76cf27065047d239d54fc9f142b93r1-500-292_hq.gif'); 
+    /* background-image: linear-gradient(180deg, rgb(255 255 255 / 1%), rgba(255 255 255 / 1) 85%),radial-gradient(ellipse at top left, rgba(13 110 253 / 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(255 228 132 / 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(112 44 249 / 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(214 51 132 / 0.5), transparent 50%); */
 }
 
 /*=======
@@ -192,7 +197,7 @@ img {
 .cont__info {
     text-align: center;
     color: var(---color--title--);
-    margin-top: 25rem;
+    margin-top: 30rem;
 }
 
 .cont__info h1 {
@@ -205,15 +210,39 @@ img {
     font-size: .75rem;
 }
 
+.icon_redes{
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+    
+}
+
+.icon_redes i {
+    font-size: 40px;
+    color:  var(--color-text--ligth);
+    transition: all .3s ease-in-out;
+
+}
+
+.icon_redes i:hover {
+
+    color:white;
+    font-size: 45px;
+
+}
 /*==============
  * Acerca de mi *
 ===============*/
 
 .about {
-    padding: .75rem 10px;
-    text-align: center;
-    height: 100%;
-    margin-top: 0;
+   
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        height: 100%;
+        font-size: 1.5rem;
+    
    
 }
 
@@ -228,6 +257,8 @@ img {
     color: black;
     padding: 0 20px 0 20px;
     font-size: 1rem;
+    text-align: center;
+    
    
 }
 
@@ -491,12 +522,14 @@ img {
 }
 
 .card-proyect {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     border: 1px solid;
     border-radius: 10px;
-    background-image: url(/assents/img/ecomerce.png);
-    background-size: contain;
+     background-image: url(/assents/img/quotes.png); 
+    /* background-size: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 3px 5px 5px rgba(3, 32, 51, 8);
     background-repeat: no-repeat;
     position: relative;
@@ -505,7 +538,28 @@ img {
 .card2 {
     background-image: url(/assents/img/weater.png);
 }
-
+.card3{
+    background-image: url(/assents/img/rickandmorty.png);
+} 
+.card4{
+    background-image: url(/assents/img/hook.png);
+}
+.card5{
+    background-image: url(/assents/img/pokedex.png);
+}
+.card6{
+    background-image: url(/assents/img/ecomercereact.png);
+}
+.hidden{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.description{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
 .hidden {
     display: flex;
     width: 100%;
@@ -590,7 +644,14 @@ a {
     font-size: 4rem;
     margin-top: 20px;
     color: black;
+    transition: all .3s ease-in-out;
     
+}
+
+.contact__body i:hover{
+    color: var(--color-text--ligth);
+    font-size: 5rem;
+    transition: all .3s ease-in-out;
 }
 .box__icon{
     display: flex;
@@ -674,24 +735,49 @@ a {
 }
 
 .card-proyect {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     border: 1px solid;
-    border-radius: 10px;
-    background-image: url(/assents/img/ecomerce.png);
-    background-size: contain;
-    box-shadow: 3px 5px 5px rgba(3, 32, 51, 8);
+    border-radius: 5px;
+    background-image: url(/assents/img/quotes.png);
+/* 
+    background-size: contain;  */
+     background-size: cover; 
+    background-repeat: no-repeat;
+
+    box-shadow: 3px 10px 10px rgba(3, 32, 51, 8);
     background-repeat: no-repeat;
     position: relative;
 }
 
+
 .card2 {
     background-image: url(/assents/img/weater.png);
 }
-
-
+.card3{
+    background-image: url(/assents/img/rickandmorty.png);
+} 
+.card4{
+    background-image: url(/assents/img/hook.png);
+}
+.card5{
+    background-image: url(/assents/img/pokedex.png);
+}
+.card6{
+    background-image: url(/assents/img/ecomercereact.png);
+}
+.hidden{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.description{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
 .cont__info {
-     margin-top: 40rem;
+     margin-top: 45rem;
 }
     
 .cont__info h1 {
@@ -727,16 +813,39 @@ a {
     color: var(--color-text--ligth);
 }
 
+
 .about {
-    padding: 2rem 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
     height: 100%;
     font-size: 1.5rem;
 }
+
 .about p {
     color: black;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 0 30px 0 30px;
+}
+
+.cv{
+    margin-top: 1em;
+    background-color: var(---color--title--);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 16px;
+    box-shadow: 0 5px 30px var(--color-text--ligth);
+}
+.cv a{
+
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    margin: 0;
 }
 .container__contact{
    
